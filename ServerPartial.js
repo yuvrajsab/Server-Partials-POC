@@ -29,3 +29,5 @@ class ServerPartial {
 		document.querySelector(selector).innerHTML = data;
 	}
 }
+
+export default ServerPartial;
