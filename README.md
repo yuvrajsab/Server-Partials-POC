@@ -19,7 +19,9 @@ Route::get('/partials/users', function () {
         ->limit(5)
         ->get();
 });
+```
 
+```php
 // view "partials.users"
 
 @foreach($users as $user)
@@ -32,7 +34,6 @@ Route::get('/partials/users', function () {
         </div>
     </div>
 @endforeach
-
 ```
 
 ### Include `ServerPartial.js` script
